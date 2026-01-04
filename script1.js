@@ -31,13 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
   /* -------------------------------
      SIGN IN BUTTON
   -------------------------------- */
-  const signInBtn = document.getElementById("sign-in");
+  /*const signInBtn = document.getElementById("sign-in");
 
   if (signInBtn) {
     signInBtn.addEventListener("click", () => {
       alert("Sign In feature coming soon 🚀");
     });
-  }
+  }*/
 
   /* -------------------------------
      FAQ ACCORDION (EXTRA UX)
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (languageBtn) {
     languageBtn.addEventListener("click", () => {
-      alert("Language selection coming soon 🌍");
+      alert("Languages are not available yet");
     });
   }
 });

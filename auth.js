@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const storedPassword = localStorage.getItem("userPassword");
 
       if (email === storedEmail && password === storedPassword) {
-        alert("Login successful 🎉");
+        alert("Login successful");
         window.location.href = "index.html";
       } else {
         alert("Invalid email or password");
