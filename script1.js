@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Simple email format check
       if (!email.includes("@")) {
-        alert("Please enter a valid email address.");
+        alert("Please enter a valid email address");
         return;
       }
 
@@ -31,13 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
   /* -------------------------------
      SIGN IN BUTTON
   -------------------------------- */
-  /*const signInBtn = document.getElementById("sign-in");
+  const signInBtn = document.getElementById("sign-in");
 
   if (signInBtn) {
     signInBtn.addEventListener("click", () => {
-      alert("Sign In feature coming soon 🚀");
+      alert("You signed in successfully!");
     });
-  }*/
+  }
 
   /* -------------------------------
      FAQ ACCORDION (EXTRA UX)

@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const email = document.getElementById("registerEmail").value.trim();
       const password = document.getElementById("registerPassword").value;
 
-      if (password.length < 6) {
-        alert("Password must be at least 6 characters");
+      if (password.length < 7) {
+        alert("Password must be at least 7 characters");
         return;
       }
 
@@ -36,10 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const storedPassword = localStorage.getItem("userPassword");
 
       if (email === storedEmail && password === storedPassword) {
-        alert("Login successful");
+        alert("Login successful 🎉");
         window.location.href = "index.html";
       } else {
-        alert("Invalid email or password");
+        alert("Enter valid email or password");
       }
     });
   }
