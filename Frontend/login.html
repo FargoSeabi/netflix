@@ -3,34 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Register | Netflix Clone</title>
+  <title>Login | Netflix Clone</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="header">
     <nav>
-        <img src="images/logo.png" class="logo" />
+        <img title='logo' src="images/logo.png" class="logo" />
 
         <div>
-          <button onclick="window.location.href='index.html'">Home</button>
-  
-          <button onclick="window.location.href='login.html'">Sign in</button>
+          
+
+  <button onclick="window.location.href='index.html'">Home</button>
+          <button onclick="window.location.href='register.html'">Register</button>
 
         </div>
       </nav>
     <div class="header-content">
-      <h1>Create Account</h1>
+      <h1>Sign In</h1>
 
-      <form class="email-signup" id="registerForm">
-        <input type="email" id="registerEmail" placeholder="Email address" required />
-        <input type="password" id="registerPassword" placeholder="Password" required />
-        <button type="submit">Register</button>
+      <form class="email-signup" id="loginForm">
+        <input type="email" id="loginEmail" placeholder="Email address" required />
+        <input type="password" id="loginPassword" placeholder="Password" required />
+        <button type="submit">Sign In</button>
       </form>
 
-      <p style="margin-top:15px;">
-        Already have an account? Sign in!
-       
+      <p class="accordion" >
+        New to Netflix?
+        <
       </p>
     </div>
   </div>
@@ -45,7 +46,7 @@
           <div class="content">
             <p>
               Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries, and more on
+              award-winning TV shows, movies, anime, documentaries and more on
               thousands of internet-connected devices.You can watch as much as
               you want, whenever you want without a single commercial – all for
               one low monthly price. There's always something new to discover
@@ -61,7 +62,9 @@
           <label for="second">How much does Netflix cost?</label>
           <div class="content">
             <p>
-              Subscrption range from R49 to R199 a month. No extra costs, no contracts.
+              Watch Netflix on your smartphone, tablet, Smart TV or
+              streaming device, all for one fixed monthly fee. Subscription range from
+              R49 to R299 a month. No extra costs, no contracts.
             </p>
           </div>
         </li>
@@ -92,8 +95,7 @@
           <label for="forth">How to cancel?</label>
           <div class="content">
             <p>
-              Netflix is flexible. There are no pesky contracts and no
-              commitments. You can easily cancel your account online in two
+              You can easily cancel your account online in two
               clicks. There are no cancellation fees – start or stop your
               account anytime.
             </p>
@@ -135,10 +137,10 @@
         >Ready to watch? Enter your email to create or restart your
         membership.</small
       >
-    
+     
     </div>
     <div class="footer">
-      <h2>Questions?call 076-1056-735</h2>
+      <h2>Questions?Call 076-1056-735</h2>
       <div class="row">
         <div class="col">
           <a href="#">FAQ</a>
@@ -149,7 +151,7 @@
         <div class="col">
           <a href="#">Account</a>
           <a href="#">Ways to watch</a>
-          <a href="#">Coperate Information</a>
+          <a href="#">Cooperate Information</a>
           <a href="#">Only on Netflix</a>
         </div>
         <div class="col">
