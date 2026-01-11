@@ -1,3 +1,4 @@
+
 const http = require("http");
 const mysql = require("mysql2");
 
@@ -27,7 +28,7 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "application/json");
 
   // Home route
-  if (req.url === "/" && req.method === "GET") {
+  if (req.url === "/i" && req.method === "GET") {
     res.end(JSON.stringify({ message: "Netflix Clone API is running" }));
   }
 
@@ -57,3 +58,5 @@ const PORT = 3000;
 server.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
+module.exports = db;
