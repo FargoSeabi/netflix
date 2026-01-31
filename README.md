@@ -12,8 +12,7 @@ responsiveness, and basic interactivity.
 - Fully responsive (mobile, tablet, desktop)  
 - Movie and TV show sections  
 - Hover effects and smooth animations  
-- Interactive navigation bar  
-- Fast and lightweight  
+- Interactive navigation 
 
 ---
 
@@ -25,9 +24,6 @@ responsiveness, and basic interactivity.
 
 ---
 
-## 📂 Project Structure
-
----
 
 ## ▶️ How to Run
 
